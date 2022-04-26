@@ -1,0 +1,130 @@
+## ==========
+sudo pacman-mirrors -i -c China -m rank
+sudo pacman -Syyu
+AUR助手yay
+sudo pacman -S yay
+## yay -S paru
+## ==========
+#AUR助手yay
+sudo pacman -S yay
+## yay -S paru
+#更新系统:
+yay -Syyu
+## ==========
+
+## ==========
+yay -S package 
+yay -Rsc package
+## ==========
+
+## ==========
+yay -S fish
+## ==========
+yay -S gvim
+## ==========
+
+## ==========
+<<<<<<< HEAD
+yay -S fcitx-im fcitx-configtool
+yay -S fcitx-sogoupinyin
+添加输入法配置文件，输入命令：
+vim ~/.profile
+export EDITOR=/usr/bin/vim
+#export TERMINAL=alacritty
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
+## ==========
+
+## ==========
+timedatectl set-ntp true
+=======
+cd ~
+rm .vimrc
+ln -s .config/vim/vimrc .vimrc
+rm .bashrc
+ln -s .config/bashrc .bashrc
+rm .profile
+ln -s .config/profile .profile
+## ==========
+ln -s .config/ssh .ssh
+
+## ==========
+
+## ==========
+yay -S fcitx-im fcitx-configtool
+yay -S fcitx-sogoupinyin
+#添加输入法配置文件，输入命令：
+#vim ~/.profile
+#export EDITOR=/usr/bin/vim
+##export TERMINAL=alacritty
+#export GTK_IM_MODULE=fcitx
+#export QT_IM_MODULE=fcitx
+#export XMODIFIERS="@im=fcitx"
+## ==========
+
+## ==========
+sudo timedatectl set-ntp true
+## ==========
+
+## ==========
+yay -S ranger
+将默认配置文件复制到该文件~/.config/range
+ranger --copy-config=all
+##rc.conf : set show_hidden true
+=======
+#将默认配置文件复制到该文件~/.config/range
+#ranger --copy-config=all
+#rc.conf : set show_hidden true
+#rifle.conf : $EDITOR -> vim
+## ==========
+
+## ==========
+yay -S alacritty
+字体更换：
+monospace -> Source Code Pro
+manjaro_config
+=======
+#字体更换：
+#monospace -> Source Code Pro
+#manjaro_config
+## ==========
+
+## ==========
+yay -S i3
+#cp /etc/i3/config  ~/.config/i3/config -> : Mod1 changeto $mod
+#Manjaro i3wm替换默认程序配置:
+#vim ~/.config/mimeapps.list 
+## ==========
+#安装polybar
+#yay -S polybar-git
+#安装图标字体
+#yay -S ttf-font-awesome
+#在i3的config中添加自动启动
+#exec . ~/.config/polybar/launch.sh
+## ==========
+
+yay -S rofi
+yay -S feh
+yay -S picom
+
+#安装polybar
+#yay -S polybar-git
+#安装图标字体
+#yay -S ttf-font-awesome
+#在i3的config中添加自动启动
+#exec . ~/.config/polybar/launch.sh
+## ==========
+## ==========
+wps：中文版，想要英文版把后面那个包去掉
+yay -S wps-office wps-office-mui-zh-cn
+## ==========
+
+## ==========
+timeshift：强大好用的备份、回滚系统工具
+yay -S timeshift
+## ==========
+
+## ==========
+yay -S anaconda
+### ==========

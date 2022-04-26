@@ -1,0 +1,55 @@
+" ============================================================================
+" Netrw Directory Listing                                        (netrw v171)
+"   /home/qc/.config
+"   Sorted by      name
+"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,\~\=\*$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:special
+" ==============================================================================
+../
+./
+GIMP/
+Kingsoft/
+Kvantum/
+Mousepad/
+Thunar/
+alacritty/
+autostart/
+chromium/
+dconf/
+falkon/
+fcitx/
+fcitx5/
+fish/
+fontconfig/
+google-chrome/
+gtk-2.0/
+i3/
+ibus/
+manjaro/
+onlyoffice/
+pamac/
+pip/
+pulse/
+qpdfview/
+qt5ct/
+ranger/
+sogoupinyin/
+viewnior/
+vim/
+vlc/
+volumeicon/
+xfce4/
+yay/
+QtProject.conf
+bak2_mimeapps.list
+bak_mimeapps.list
+bashrc
+github.txt
+manjaro-hello.json
+manjaro_config
+mimeapps.list
+note.txt
+profile
+user-dirs.dirs
+user-dirs.locale
+xmodmap
