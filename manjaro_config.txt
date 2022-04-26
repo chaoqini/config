@@ -24,7 +24,6 @@ yay -S gvim
 ## ==========
 
 ## ==========
-<<<<<<< HEAD
 yay -S fcitx-im fcitx-configtool
 yay -S fcitx-sogoupinyin
 添加输入法配置文件，输入命令：
