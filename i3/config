@@ -271,7 +271,7 @@ bindsym $mod+m bar mode toggle
 exec_always --no-startup-id fcitx
 exec_always --no-startup-id feh --randomize --bg-fill ~/pictures/wallpapers
 exec_always --no-startup-id sh ~/proj_sh/feh.sh
-exec_always --no-startup-id picom -b
+#exec_always --no-startup-id picom -b
 ##exec --no-startup-id compton -b
 
 ##exec_always screenfetch
