@@ -198,3 +198,8 @@ else
 fi
 unset __conda_setup
 
+
+export TERM=vt100
+export TERMCAP=$INFORMIXDIR/etc/termcap
+
+

@@ -245,23 +245,22 @@ bindsym $mod+f exec firefox
 bindsym $mod+g exec google-chrome-stable
 bindsym $mod+w exec wps 
 bindsym $mod+m bar mode toggle
-#bindsym $mod+j exec firefox ; exec jupyter-notebook
+bindsym $mod+j exec firefox ; exec jupyter-notebook
+##bindsym $mod+j exec sh ~/proj_sh/jpt.sh
+##bindsym $mod+j exec firefox;exec i3-sensible-terminal;sleep 5;exec jupyter-notebook
 ## ==========
 #bindsym $mod+F4 exec systenctl poweroff  
 ## ==========
-
-#bindsym $mod+j exec firefox; exec i3-sensible-terminal -x sh jpt & 
-#bindsym $mod+j exec i3-sensible-terminal -e jpt 
+#
+##bindsym $mod+j exec i3-sensible-terminal -e jpt 
 ##bindsym $mod+j exec firefox;exec jpt &
 ##bindsym $mod+j exec jupyter notebook
 ##bindsym $mod+j exec jupyter-notebook
-#bindsym $mod+j exec sh ~/proj_sh/jpt.sh
-#bindsym $mod+j exec i3-sensible-terminal -e bash ~/proj_sh/jpt.sh;exec bash
-#bindsym $mod+j exec i3-sensible-terminal -e ~/proj_sh/jpt.sh;exec bash
-#bindsym $mod+j exec activate base;exec i3-sensible-terminal -e ~/proj_sh/jpt.sh
-#bindsym $mod+j exec i3-sensible-terminal
+##bindsym $mod+j exec sh ~/proj_sh/jpt.sh
+##bindsym $mod+j exec activate base;exec i3-sensible-terminal -e ~/proj_sh/jpt.sh
+##bindsym $mod+j exec i3-sensible-terminal
 ##bindsym $mod+j exec i3-sensible-terminal -e bash ~/proj_sh/jpt.sh
-#bindsym $mod+j exec i3-sensible-terminal -x sh ~/proj_sh/jpt.sh
+##bindsym $mod+j exec i3-sensible-terminal -x sh ~/proj_sh/jpt.sh
 ## ==========
 ## ==========
 
@@ -271,7 +270,7 @@ bindsym $mod+m bar mode toggle
 exec_always --no-startup-id fcitx
 exec_always --no-startup-id feh --randomize --bg-fill ~/pictures/wallpapers
 exec_always --no-startup-id sh ~/proj_sh/feh.sh
-#exec_always --no-startup-id picom -b
+##exec_always --no-startup-id picom -b
 ##exec --no-startup-id compton -b
 
 ##exec_always screenfetch

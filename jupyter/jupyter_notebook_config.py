@@ -138,7 +138,6 @@
 ## DEPRECATED use base_url
 #  Default: '/'
 # c.NotebookApp.base_project_url = '/'
-c.NotebookApp.base_project_url = '~'
 
 ## The base URL for the notebook server.
 #  
@@ -152,7 +151,6 @@ c.NotebookApp.base_project_url = '~'
 #  variable to override it.
 #  Default: ''
 # c.NotebookApp.browser = ''
-#c.NotebookApp.browser = 'firefox'
 
 ## SSL/TLS 认证文件所在全路径.
 #  Default: ''
@@ -384,13 +382,13 @@ c.NotebookApp.base_project_url = '~'
 # c.NotebookApp.notebook_dir = ''
 c.NotebookApp.notebook_dir = 'proj_py'
 
+
 ## Whether to open in a browser after starting. The specific browser used is
 #  platform dependent and determined by the python standard library `webbrowser`
 #  module, unless it is overridden using the --browser (NotebookApp.browser)
 #  configuration option.
 #  Default: True
 # c.NotebookApp.open_browser = True
-#c.NotebookApp.open_browser  = 0  
 
 ## Hashed password to use for web authentication.
 #  
@@ -1071,7 +1069,7 @@ c.NotebookApp.notebook_dir = 'proj_py'
 ## A class for computing and verifying notebook signatures.
 
 ## The hashing algorithm used to sign notebooks.
-#  Choices: any of ['sha3_384', 'sha256', 'md5', 'sha1', 'sha224', 'blake2b', 'blake2s', 'sha3_224', 'sha3_512', 'sha3_256', 'sha384', 'sha512']
+#  Choices: any of ['sha256', 'sha3_256', 'sha1', 'sha3_512', 'sha384', 'blake2s', 'md5', 'sha512', 'blake2b', 'sha3_224', 'sha3_384', 'sha224']
 #  Default: 'sha256'
 # c.NotebookNotary.algorithm = 'sha256'
 
