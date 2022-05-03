@@ -172,7 +172,7 @@ alias sd='shutdown'
 alias ipy='ipython'
 #alias jpt='jupyter notebook'
 #alias jpt='nohup jupyter notebook &'
-#alias jpt='nohup jupyter notebook 2>&1 &'
+#alias jpt='firefox;jpt'
 ## ==========
 alias config='cd ~/.config'
 alias pp='cd ~/proj_py'
